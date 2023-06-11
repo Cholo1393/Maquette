@@ -1,0 +1,300 @@
+@font-face {
+    font-family:"droid sans";
+    src: url(./Font/DroidSans.ttf);
+}
+@font-face {
+    font-family:"droid serif";
+    src: url(./Font/DroidSerif-Regular.ttf);
+}
+@font-face {
+    font-family:"oswald";
+    src: url(./Font/Oswald-VariableFont_wght.ttf);
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    background-image: url(./assets/misc/grille.png);
+    text-align: left;
+
+}
+.header{
+    display: flex;
+    flex: 1 1 auto;
+    text-align: left;
+    justify-content: space-around;
+    max-width: 850px;
+    height: 25vh;
+    margin-bottom: 2vh;
+    align-items: center;
+    
+}
+.nav{
+    font-family: "droid sans";
+    margin-left: 2em;
+    font-weight: 200;
+    
+}
+h2{
+    font-size: 17px;
+    margin-top: 10px;
+    font-family: "oswald";
+    color: gray;
+    font-weight: 400;
+}
+
+.abc{
+    margin: 0% 5% 0% 0%;
+}
+.titre{
+    display: flex;
+    justify-content: center;
+    font-size: large;
+  }
+
+#rouge {
+    height: 5px;
+    background-color:  rgb(255, 77, 0);
+    border-style: none;
+    
+}
+
+#orange {
+    height: 5px;
+    background-color:  rgb(250, 184, 60);
+    border-style: none;
+}
+
+#vert {
+    height: 5px;
+    background-color:  rgb(118, 194, 88);
+    font-weight: 100;
+    border-style: none;
+}
+
+#bleu {
+    height: 5px;
+    background-color:  rgb(81, 148, 255);
+    border-style: none;
+}
+
+#violet {
+    height: 5px;
+    background-color: rgb(229, 0, 229);
+    font-weight: 100;
+    border-style: none;
+}
+
+li{
+    list-style: none;
+    font-size: 12px;
+    font-family: "droide serif";
+    line-height: 25px;
+    color: gray;
+}
+
+ul{
+    padding: 0;
+    width: 150px;
+    font-size: 15px;
+    font-weight: 200;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
+}
+
+.mid{
+    text-align: center;
+    background-image: url(./assets/misc/grille.png);
+    font-family: "droid serif";
+    font-style: italic;
+    box-sizing: content-box;
+    padding: 50px;
+    font-size: 22px;
+    font-weight: 600;
+    color: gray;
+}
+/*section{
+    display: flex;
+}*/
+h1{
+    color: rgb(220, 132, 10);
+    font-weight: 320;
+    font-size:20px;
+    font-family: "oswald";
+}
+h3{
+    font-family: "droid serif";
+    font-style: italic;
+    opacity: 0.33;
+    font-weight: bold;
+    font-size: small;
+    
+}
+
+.hobby{
+    display:flex;
+    max-width: 65%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto; 
+}
+.double{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0px 30px;
+    text-align: left;
+    margin-right: 5%;
+    font-family: "droid serif";
+    color: gray;
+    font-size: 12px;
+}
+
+.commentaires img{
+    border: 2px solid #e5e5e500;
+    width: 100px;
+    margin: 3px;
+    padding: 5px;
+}
+.imgolf{
+    max-width: 100%;
+    height:auto;
+}
+.photo{
+    display: grid;
+    grid-template-columns: repeat(3,115px);
+    gap: 10px;
+    
+}
+.photo img{
+    box-shadow: 2px 2px 8px rgb(174, 174, 174);
+}
+.golf{
+    border: solid silver 1px;
+    padding:0 5px;
+    /*margin: auto;*/
+    text-align: left;
+    margin-right: 5%;
+    font-weight:lighter;
+    font-family: "droid serif";
+    color: gray;
+    font-size: 12px;
+}
+/*.double{
+    margin: auto;
+    text-align: left;
+    margin-right: 5%;
+    font-family: "droid serif";
+    color: gray;
+    }*/
+.commentaires{
+    /*margin: auto;*/
+     text-align: left;
+     margin-right: 5%;
+     font-family: "droid serif";
+     color: gray;
+     font-size: 12px;
+}
+.transparent{
+    opacity: 0.1;
+    margin-bottom: 15px;
+    color: silver;
+}
+.bas{
+    
+
+    background: url(./assets/misc/grille.png);
+}
+.grille{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 10px;
+}
+.img{
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+/* .logo{
+text-align: end;
+} */
+
+.logo{
+    text-align: right;
+    margin-right: 25%;
+}
+.contact{
+    display: flex;
+    font-family: "droid serif";
+    flex-direction: column;
+}
+.adresse{
+    display: flex;
+    font-family: "droid serif";
+    font-size: small;
+}
+.tel{
+    display: flex;
+    font-family: "droid serif";
+    font-size: small;
+}
+.mail{
+    display: flex;
+    font-family: "droid serif";
+    font-size: small;
+}
+.support{
+    display: flex;
+    font-family: "droid serif";
+    font-size: small;
+}
+.text{
+    display: flex;
+    font-family: "droid serif";
+    font-weight: 450;
+    color: gray;
+}
+.p{
+    font: 200;
+}
+.txt{
+    font-size: x-small;
+}
+h4{
+    font-weight: 1000;
+    font-family: "droid serif";
+    color: rgb(92, 92, 92);
+}
+
+.billet{
+    justify-content: center;
+    font-size: 12px;
+    color: gray;
+    font-family: 'droid serif';
+}
+.dc{
+    justify-content: center;
+    font-size: 12px;
+    color: gray;
+    font-family: 'droid serif';
+}
+.blabla{
+    justify-content: center;
+    font-size: 12px;
+    color: gray;
+    font-family: 'droid serif';
+}
+.low{
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color: gray;
+}
